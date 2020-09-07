@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'https://react-conduit-node.herokuapp.com/api';
+const API_ROOT = 'https://qa-react-conduit.herokuapp.com/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
